@@ -1,0 +1,162 @@
+p{
+  margin: 0;
+}
+.container{
+  min-width: 800px;
+}
+.head{
+  height: 58px;
+  line-height: 58px;
+  display: flex;
+  width: 1420px;
+  margin: 0 auto;
+}
+.head .logo_container{
+  margin-right: 24px;
+}
+.head .logo{
+  width: 50px;
+  vertical-align: middle;
+}
+.head .logo_name1{
+  font-size: 16px;
+  color: #21944b;
+}
+.head .logo_name2{
+  border: 1px solid transparent;
+  border-radius: 20px;
+  padding: 3px 5px;
+  font-size: 12px;
+  background-color: #21944b;
+  color: #fff;
+}
+.head .nav{
+  display: flex;
+  font-size: 18px;
+}
+.head .nav span{
+  margin: 0 24px;
+}
+.head .new{
+  width: 60px;
+  margin-left: 35px;
+  vertical-align: middle;
+}
+.head .search{
+  margin-left: 50px;
+}
+.head .search_icon{
+  color: #3ba8f0;
+  font-size: 20px;
+}
+.head .user_icon{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  margin-left: 80px;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+
+.body_container{
+  padding-top: 30px;
+  border-top: 1px solid #e2e2e2;
+}
+.body{
+  margin: 0 auto;
+  width: 1420px;
+  display: flex;
+}
+/* side栏 */
+.side{
+  width: 245px;
+  border-right: 1px solid #ddd;
+}
+.side .back_arrow{
+  color: #969696;
+  font-size: 30px;
+  vertical-align: middle;
+}
+.side .side_head{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 17px;
+}
+.side .more_icon{
+  font-size: 23px;
+  vertical-align: middle;
+}
+.side .side_head_text{
+  font-size: 20px;
+}
+.side .side_items{
+  display: flex;
+  flex-direction: column;
+  margin-top: 34px;
+
+}
+.side .item{
+  height: 60px;
+  line-height: 60px;
+  font-size: 16px;
+  padding-left: 26px;
+}
+.side .item:hover{
+  border-left: 2px solid #3ba8f0;
+  background-color: #f4f5f5;
+  color: #3ba8f0;
+  padding-left: 24px;
+}
+.side .item span{
+  margin-left: 20px;
+}
+
+/* 内容主体部分 */
+.main{
+  width: 1173px;
+  padding-left: 35px;
+}
+.main .main_head{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e6e7e7;
+}
+.main .main_head p{
+  font-size: 16px;
+  line-height: 50px;
+}
+.main .main_head .create_btn{
+  width: 100px;
+  height: 35px;
+  color: #fff;
+  font-size: 14px;
+}
+.main_content p{
+  color: #949494;
+  font-size: 14px;
+}
+.main_content .card{
+  display: flex;
+  border: 1px solid #dddddd;
+  width: 340px;
+  height: 160px;
+  align-items: center;
+}
+.main_content .card .card_img{
+  border: 3px solid #eeeeee;
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 34px;
+  margin-right: 20px;
+}
+.main_content .card .senior{
+  font-size: 16px;
+  color: #333;
+}
