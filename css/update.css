@@ -137,6 +137,7 @@ p{
 .main_content p{
   color: #949494;
   font-size: 14px;
+  margin: 21px 0;
 }
 .main_content .card{
   display: flex;
@@ -144,6 +145,8 @@ p{
   width: 340px;
   height: 160px;
   align-items: center;
+  position: relative;
+  margin-right: 20px;
 }
 .main_content .card .card_img{
   border: 3px solid #eeeeee;
@@ -156,7 +159,35 @@ p{
   margin-left: 34px;
   margin-right: 20px;
 }
+.main_content .card .introduction p{
+  margin: 0;
+  margin-top: 10px;
+}
 .main_content .card .senior{
   font-size: 16px;
   color: #333;
+}
+.main_content .card .teacher span{
+  color: black;
+  font-weight: bold;
+}
+.main_content .card .class span{
+  color: black;
+}
+.main_content .card .student span{
+  color: black;
+}
+.main_content .class,.administrative_class{
+  display: flex;
+  flex-wrap: wrap;
+}
+/* 行政班标签label */
+.main_content .card .label{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  font-size: 12px;
+  background-color: #3ba8f0;
+  padding: 4px 10px;
 }
